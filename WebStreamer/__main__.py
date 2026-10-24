@@ -6,7 +6,7 @@ import asyncio
 import logging
 import importlib
 from pathlib import Path
-from hydrogram import idle
+from pyrogram import idle
 from .bot import StreamBot
 from .vars import Var
 from aiohttp import web
